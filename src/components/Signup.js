@@ -27,7 +27,7 @@ export default function Signup(props) {
         }
     }
     const onchange = (e) => {
-        setcreadiantials({ ...creadiantials, [e.target.name]: e.target.value, [e.target.email]: e.target.value, [e.target.password]: e.target.value })
+        setcreadiantials({ ...creadiantials, [e.target.name]: e.target.value, })
     }
     return (
         <div className='container' style={{ marginTop: "80px" }}>
